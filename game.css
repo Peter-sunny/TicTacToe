@@ -1,0 +1,40 @@
+body{
+    	background-image: url("123.jpg");
+    	background-image: unset;
+    }
+	h1{
+		    font-family: cursive;
+    font-weight: 1000;
+    font-size: 73px;
+    text-align: center;
+    margin-bottom: -48px;
+    padding-bottom: -70px;
+	}
+	#b1 ,#b2 ,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+		           width: 130px;
+    height: 130px;
+    text-align: center;
+    margin: 16px;
+    margin-top: -24px;
+    background: #212121;
+    margin-left: -10px;
+    text-align: center;
+    color: wheat;
+    font-size: 99px;
+    font-family: cursive;
+    text-shadow: 9px 1px 2px blue;
+    font-weight: 600;
+    border-radius: 9px;
+    position: relative;
+    top: 120px;
+        }
+  #content{
+ 	    margin: 0 0 10px;
+    color: red;
+    font-size: 94px;
+    font-weight: 600;
+    text-shadow: 6px 8px black;
+ }
+
+
+	
