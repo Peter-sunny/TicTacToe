@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<!-- CSS external file Included -->
+	<link rel="stylesheet" href="./game.css">
+	<!-- js external file Included -->
+	<script type="text/javascript" src="./main.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+	<center>	
+	<div id="main">
+		<h1>TIC TAC TOE</h1>
+
+		<!-- Game Instructions -->
+		
+        <div class="row">
+        
+        <div class="col-md-2"></div>
+        <div class="col-md-8" >
+        	<div id="box-custom">
+		
+		<input type="text" class="box-custom" id="b1" onclick="box_1(); mainfunc();" >
+		<input type="text" class="box-custom" id="b2" onclick="box_2(); mainfunc();" >
+		<input type="text" class="box-custom" id="b3" onclick="box_3(); mainfunc();" ><br><br>
+    	<input type="text" class="box-custom" id="b4" onclick="box_4(); mainfunc();" >			
+		<input type="text" class="box-custom" id="b5" onclick="box_5(); mainfunc();" >
+		<input type="text" class="box-custom" id="b6" onclick="box_6(); mainfunc();" ><br><br>
+		<input type="text" class="box-custom" id="b7" onclick="box_7(); mainfunc();" >
+		<input type="text" class="box-custom" id="b8" onclick="box_8();mainfunc();" >
+        <input type="text" class="box-custom" id="b9" onclick="box_9();mainfunc();" ><br><br>
+        </div>
+        <button id="reset" onclick="reset()">
+			RESET
+		</button>
+		 </div>
+		</div>
+		 <!-- Button to reset game -->
+		
+
+		<br><br>
+		<!-- Space to show player turn -->
+		<p id="content"></p>
+
+
+
+
+	</center>
+</body>
+
+</html>
